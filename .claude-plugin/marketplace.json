@@ -1,0 +1,17 @@
+{
+  "name": "clojure-aero-skill",
+  "metadata": {
+    "description": "Clojure Aero skill set for AI coding agents — read-config, tag literals, resolvers, profiles, extending with custom tags, and patterns for secrets, components, and schema validation."
+  },
+  "owner": {
+    "name": "stoating"
+  },
+  "plugins": [
+    {
+      "name": "clojure-aero",
+      "source": "./",
+      "description": "Clojure Aero skill — read-config, tag literals (#env, #profile, #include, #ref, #or, #join, #merge), resolvers, profiles, extending with custom tags, and patterns for secrets, components, and schema validation.",
+      "version": "0.1.0"
+    }
+  ]
+}
