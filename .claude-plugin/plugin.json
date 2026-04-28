@@ -2,5 +2,5 @@
   "name": "aero",
   "description": "Clojure Aero skill — read-config, tag literals (#env, #profile, #include, #ref, #or, #join, #merge), resolvers, profiles, extending with custom tags, and patterns for secrets, components, and schema validation.",
   "version": "0.1.0",
-  "skills": "./"
+  "skills": "aero"
 }
