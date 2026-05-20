@@ -81,7 +81,7 @@ Common mistakes when using Aero and how to avoid them.
 
 **Why it breaks:** Aero will emit a warning `WARNING: Unable to resolve ...` and substitute `nil`. The config looks valid but the value is missing.
 
-**Fix:** Verify paths match the actual EDN structure. Use a schema validator (Malli, Spec, Plumatic Schema) on the result of `read-config` to catch missing keys early.
+**Fix:** Verify paths match the actual EDN structure. Use a schema validator (Malli, Spec, or Plumatic Schema) on the result of `read-config` to catch missing keys early.
 
 ---
 
