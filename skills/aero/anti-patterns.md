@@ -93,7 +93,7 @@ Common mistakes when using Aero and how to avoid them.
  :b #ref [:a]}
 ```
 
-**Why it breaks:** Aero detects the cycle after max resolution attempts and throws `ExceptionInfo: Max attempts exhausted`.
+**Why it breaks:** Aero detects the cycle, prints `WARNING: Unable to resolve "#ref [:b]" at [:a]` to stderr, and resolves both keys to `nil`. The config loads "successfully" but the values are silently missing. (The `Max attempts exhausted` exception fires for other unresolvable expansions, not for `#ref` cycles.)
 
 **Fix:** Extract the shared value to a non-ref key:
 
