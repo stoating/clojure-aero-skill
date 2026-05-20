@@ -1,6 +1,6 @@
 # Aero — Anti-Patterns
 
-Common mistakes when using Aero and how to avoid them.
+Common mistakes when using Aero, and how to avoid them.
 
 ---
 
